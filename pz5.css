@@ -1,6 +1,7 @@
 .verh {
     display: flex;
     flex-direction: row;
+    /* проверка */
 }
 
 .item {
