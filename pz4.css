@@ -1,0 +1,55 @@
+.box1 {
+    display: grid;
+    grid-template-columns: 140px 200px 230px 100px 100px;
+    background-color: rgba(228, 222, 222, 0.836);
+    height: 40px;
+    vertical-align: ;
+}
+
+h1 {}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.item:hover {
+    color: rgb(67, 134, 211);
+}
+
+.box2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border: 2px solid rgba(228, 222, 222, 0.836);
+    border-radius: 5px;
+}
+
+.item1 {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgba(228, 222, 222, 0.836);
+    align-items: center;
+    margin: 10px;
+}
+
+.item2 {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.item2:hover {
+    color: rgb(67, 134, 211);
+}

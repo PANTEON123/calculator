@@ -1,0 +1,36 @@
+.item {
+    align-content: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(228, 222, 222, 0.836);
+    align-items: ;
+    margin: 10px;
+    background-color: beige;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    max-width: 400px;
+    height: 300px;
+}
+
+.item1 {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(228, 222, 222, 0.836);
+    align-items: center;
+    margin: 10px;
+    width: 380px;
+    height: 70px;
+}
+
+.box1 {
+    border: 2px solid rgba(228, 222, 222, 0.836);
+    border-radius: 5px;
+    max-width: 400px;
+    height: 400px;
+    background-color: rgb(94, 92, 92);
+}

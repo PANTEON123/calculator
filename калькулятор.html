@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,cyrillic' rel='stylesheet'>
+    <link href="C:\Users\Алла\Desktop\Новая папка 2\начало\пз\kalrulator.css" rel="stylesheet">
+    <script src="C:\Users\Алла\Desktop\Новая папка 2\начало\пз\kalkylator.js"></script>
+
+</head>
+
+<body>
+    <div class="box1">
+        <input id="input" class="item1" type="text" value="">
+        <script>
+            let input1 = document.getElementById('input');
+        </script>
+        <div class="box">
+            <button class="item" id="ster">CE</button>
+            <script>
+                ster.onclick = () => remu();
+            </script>
+            <button class="item" id="C">C</button>
+            <button class="item" id=""></button>
+            <button class="item" id="delOne">1/x</button>
+            <script>
+                delOne.onclick = () => schet("1/");
+            </script>
+            <button class="item" id="GT">GT</button>
+            <button class="item" id="MC">MC</button>
+            <script>
+                MC.onclick = () => Mce();
+            </script>
+            <button class="item" id="MR">MR</button>
+            <script>
+                MR.onclick = () => Mre();
+            </script>
+            <button class="item" id="Mmin">M+</button>
+            <script>
+                Mmin.onclick = () => summsum();
+            </script>
+            <button class="item" id="Mpl">M-</button>
+            <script>
+                Mpl.onclick = () => miysmin();
+            </script>
+            <button class="item" id="Znak">+/-</button>
+            <button class="item" id="seven">7</button>
+            <script>
+                seven.onclick = () => schet(7); //77777777777
+            </script>
+            <button class="item" id="eight">8</button>
+            <script>
+                eight.onclick = () => schet(8); //888888888
+            </script>
+            <button class="item" id="nine">9</button>
+            <script>
+                nine.onclick = () => schet(9); //99999999999
+            </script>
+            <button class="item" id="del">/</button>
+            <script>
+                del.onclick = () => schet("/");
+            </script>
+            <button class="item" id="kor">√</button>
+            <script>
+                kor.onclick = () => koren();
+            </script>
+            <button class="item" id="four">4</button>
+            <script>
+                four.onclick = () => schet(4); //444444444444
+            </script>
+            <button class="item" id="five">5</button>
+            <script>
+                five.onclick = () => schet(5); //55555555555
+            </script>
+            <button class="item" id="six">6</button>
+            <script>
+                six.onclick = () => schet(6); //66666666666
+            </script>
+            <button class="item" id="multipl">x</button>
+            <script>
+                multipl.onclick = () => schet("*");
+            </script>
+            <button class="item" id="pesen">%</button>
+            <script>
+                pesen.onclick = () => schet("%");
+            </script>
+            <button class="item" id="elem1">1</button>
+            <script>
+                elem1.onclick = () => schet(1); //1111111111
+            </script>
+            <button class="item" id="two">2</button>
+            <script>
+                two.onclick = () => schet(2); //2222222222222
+            </script>
+            <button class="item" id="three">3</button>
+            <script>
+                three.onclick = () => schet(3); //3333333333333
+            </script>
+            <button class="item" id="minus">-</button>
+            <script>
+                minus.onclick = () => schet("-");
+            </script>
+            <button class="item" id="ravn">=</button>
+            <script>
+                function hebdler22() {
+                    resh = t;
+                    input1.value = resh;
+                };
+                ravn.onclick = ravn.addEventListener('click', perenos);
+                //ravn.onclick = ravn.addEventListener('click', summa);
+            </script>
+            <button class="item" id="nul">0</button>
+            <script>
+                nul.onclick = () => schet(0); //000000000000
+            </script>
+            <button class="item" id="dablnul">00</button>
+            <script>
+                dablnul.onclick = () => schet(00);
+            </script>
+            <button class="item" id="per">.</button>
+            <script>
+                function hebdler13() {
+                    let a = "."
+                    input1.value += a;
+                };
+                per.onclick = per.addEventListener('click', hebdler13);
+            </script>
+            <button class="item" id="plus">+</button>
+            <script>
+                plus.onclick = () => schet("+");
+                //plus.onclick = plus.addEventListener('click', summa);
+            </script>
+        </div>
+    </div>
+    <input type="rtrer" id="input2" class="item5555" value="">
+    <script>
+        input2.value = resh;
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+.head2 {
+    background-color: rgb(241, 229, 213);
+    font-size: 24px;
+    max-width: 1200px;
+    height: 700px;
+    position: relative;
+}
+
+.stroka {
+    background-color: orange;
+    max-width: 1200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.крестик {
+    position: relative;
+    left: 96%;
+    top: -30%;
+    max-width: 30px;
+    height: 30px;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 24px;
+    color: rgb(80, 62, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 2%;
+}
+
+.картинка {
+    border: 1px outset rgb(119, 118, 118);
+    max-width: 220px;
+    height: 100px;
+    position: relative;
+}
+
+.left {
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    position: relative;
+}
+
+.right {
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    position: relative;
+    top: -57%;
+    left: 50%;
+    z-index: 1;
+}
+
+.left div {
+    max-width: 600px;
+    height: 100px;
+}
+
+.right div {
+    max-width: 600px;
+    height: 100px;
+}
+
+.list {
+    color: blueviolet;
+}
+
+body {
+    padding: 30px;
+}
+
+div {
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.tleft {
+    height: 100;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    max-width: 20%;
+    left: 13%;
+    top: -63%;
+}
+
+.tright {
+    height: 100;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 40%;
+    position: relative;
+    left: 65%;
+    top: -185%;
+    z-index: 0;
+}
+
+.tleft div {
+    padding-top: 30%;
+}
+
+.tright div {
+    padding-top: 15%;
+}
+
+.left div:hover {
+    background-color: rgba(224, 199, 174, 0.555);
+}
+
+.right div:hover {
+    background-color: rgba(224, 199, 174, 0.555);
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 10%;
+    top: 20%;
+}
+
+p {
+    position: relative;
+    top: -20%;
+    color: orange;
+}
+
+
+/*
+<div class="tleft">
+<div>Яндекс деньги<br>0% комиссия</div>
+<div>WebMoney<br>0.8% комиссия</div>
+<div>Карты Visa, Mastercard<br>0% комиссия</div>
+</div>
+
+
+
+<div class="tright">
+            <div>Эдекснет<br>0% комиссия</div>
+            <div>Qiwi<br>до 10% комиссия</div>
+            <div>Новоплат<br>до 4% комиссия</div>
+        </div>
