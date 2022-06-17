@@ -43,7 +43,10 @@
             <script>
                 Mpl.onclick = () => miysmin();
             </script>
-            <button class="item" id="Znak">+/-</button>
+            <button class="item" id="del">/</button>
+            <script>
+                del.onclick = () => schet("/");
+            </script>
             <button class="item" id="seven">7</button>
             <script>
                 seven.onclick = () => schet(7); //77777777777
@@ -56,13 +59,13 @@
             <script>
                 nine.onclick = () => schet(9); //99999999999
             </script>
-            <button class="item" id="del">/</button>
+            <button class="item" id="lskob">(</button>
             <script>
-                del.onclick = () => schet("/");
+                lskob.onclick = () => schet("(");
             </script>
-            <button class="item" id="kor">√</button>
+            <button class="item" id="Rskob">)</button>
             <script>
-                kor.onclick = () => koren();
+                Rskob.onclick = () => schet(")");
             </script>
             <button class="item" id="four">4</button>
             <script>
@@ -80,9 +83,9 @@
             <script>
                 multipl.onclick = () => schet("*");
             </script>
-            <button class="item" id="pesen">%</button>
+            <button class="item" id="kor">√</button>
             <script>
-                pesen.onclick = () => schet("%");
+                kor.onclick = () => koren();
             </script>
             <button class="item" id="elem1">1</button>
             <script>

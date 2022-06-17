@@ -25,7 +25,7 @@ function perenos() {
 };
 
 function summsum() {
-    let obl = eval(+isk + +input1.value);
+    let obl = eval(+input1.value + +isk);
     input1.value = obl;
 };
 
